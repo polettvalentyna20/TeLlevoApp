@@ -1,0 +1,17 @@
+/* Agrega una clase de animación */
+.slide-in {
+    animation: slideInAnimation 0.5s ease-in-out forwards;
+  }
+  
+  /* Define la animación */
+  @keyframes slideInAnimation {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
